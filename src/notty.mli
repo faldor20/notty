@@ -138,6 +138,8 @@ module A : sig
   type style
   (** Additional text properties. *)
 
+  val unsafe_style_of_int: int-> style
+
   val bold      : style
   val dim       : style
   val faint     : style

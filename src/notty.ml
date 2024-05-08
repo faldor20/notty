@@ -169,6 +169,7 @@ module A = struct
 
   let equal t1 t2 = t1.fg = t2.fg && t1.bg = t2.bg && t1.st = t2.st
   let unsafe_color_of_int int= int
+  let unsafe_style_of_int int= int
 
   let black        = 0x01000000
   and red          = 0x01000001
