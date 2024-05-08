@@ -86,6 +86,7 @@ module A : sig
   (** {2:corecolors Core 16 colors}
 
       The first 8 have their standard ANSI names. *)
+    val unsafe_color_of_int:int->color
 
   val black        : color
   val red          : color
